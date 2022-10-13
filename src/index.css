@@ -1,0 +1,106 @@
+.main{
+    width: 100%;
+    max-width: 600px;
+    margin: 80px auto;
+    border:2px dashed rgb(33, 161, 221);
+    /* border-style: ; */
+    border-radius: 20px;
+}
+.image{
+    width: 170px;
+    height: 160px;
+}
+.imageContainer{
+    display: flex;
+    justify-content: space-around;
+}
+h2{
+    color: rgb(43, 207, 248);
+    text-align: center;
+}
+.win{
+    margin: 20px auto 0;
+    height:40px;
+    width: 230px;
+}
+.winner{
+    color:orange;
+    text-align: center;
+    padding: 10px;
+}
+.playAgain{
+    display: block;
+    font-size: 50px;
+    width: 100px;
+    max-width: 50px;
+    color: rgb(43, 207, 248);
+    margin:0 auto;
+}
+.playAgain:hover{
+    color:rgb(58, 155, 155);
+
+}
+.play{
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+    margin: 30px;
+    text-align: center;
+}
+h3{
+    color: rgb(43, 207, 248);
+}
+h4{
+    text-align: center;
+    font-size: larger;
+    color: rgb(21, 94, 94);
+}
+.playImage{
+    width: 170px;
+    height: 160px;
+    margin-right: 10px;
+}
+.playImage:hover{
+    box-shadow: 0px 3px 10px rgb(17, 95, 114);
+}
+.rock{
+    color:aqua;
+}
+.rocka{
+    background-color: black;
+    color:white;
+}
+.paper{
+    background-color: rgb(102, 40, 40);
+    color:goldenrod;
+}
+.scissor{
+    background-color: brown;
+    color:rgb(243, 211, 28);
+}
+.rocka,.paper,.scissor{
+    padding:5px;
+}
+.score{
+    display: inline-block;
+    width: 200px;
+    margin:20px 170px;
+    padding:3px 5px;
+    border-radius: 7px;
+    color:white;
+    background-color: rgb(58, 155, 155);
+}
+.lost{
+    color:red;
+    border:1px solid red;
+    padding:2px 30px;
+    font-size:20px;
+    border-radius: 5px;
+}
+.tryAgain{
+    color:rgb(43, 207, 248);
+    border:1px solid rgb(43, 207, 248);
+    padding:2px 10px;
+    font-size:20px;
+    border-radius:5px;
+}
